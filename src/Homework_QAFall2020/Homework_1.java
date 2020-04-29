@@ -13,11 +13,15 @@ public class Homework_1 {
         System.out.println(d);   // 7
         System.out.println(d++);  // 7
 
+        /*
+     added this to see if it works also
+     */
         System.out.println(d);     // 8
         System.out.println(d--);  //  8
         System.out.println(d++);  //  7
         System.out.println(d++);  // 8
         System.out.println(d);    // 9
+
     }
 
 }
