@@ -3,18 +3,18 @@ package Class_7_HW;
 public class HW_2 {
     public static void main(String[] args) {
      char carMode = 'D';
-     String driveType = "eco";
+     String driveType = "SNOW";
 
      switch (carMode) {
          case 'P':
              System.out.println("you can park car");
          break;
          case 'D':
-             if (driveType == "snow") {
+             if (driveType.equalsIgnoreCase("snow")) {
                  System.out.println("You are on Snow mode");
-             } else if (driveType == "sport") {
+             } else if (driveType.equalsIgnoreCase("sport")) {
                  System.out.println("You are on Sport mode");
-             } else if (driveType == "eco") {
+             } else if (driveType.equalsIgnoreCase("eco")) {
                  System.out.println("You are on Eco mode");
              }
          break;
