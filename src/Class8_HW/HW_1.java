@@ -8,7 +8,7 @@ public class HW_1 {
         String abr = "";
         for (String name : msg.split(" ") ) {
             char firstLetter = name.toUpperCase().charAt(0);
-            abr = abr + firstLetter;
+            abr += firstLetter;
         }
         System.out.println("Abbreviation: " + abr);
 

@@ -11,12 +11,11 @@ public class HW_2 {
 
         finalWord = finalWord + " " + newName;
 
-        line = finalWord;
+        line = finalWord.trim();
 
         }
 
         System.out.println("Line (After modification) : " + line);
-// i cant get rid of a space in front of the modified line (that is in front of "Once")
 
     }
 }

@@ -13,7 +13,7 @@ public class HW_3 {
 
         for (int i=newMessage.length -1; i>=0; i--) {
            String new2 = newMessage[i];
-           reverseMessage = reverseMessage + new2;
+           reverseMessage += new2;
         }
 
         System.out.println("Message in reverse: " + reverseMessage);
