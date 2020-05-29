@@ -9,6 +9,7 @@ public class printerSummery {
         System.out.println(p1.printPages(15, "double"));
         */
         p1.addToner(50);
+        System.out.println(p1.addToner(10));
         p1.addPages(45);
         p1.printerSummery();
         p1.addPages(2);

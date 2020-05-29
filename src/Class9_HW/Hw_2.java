@@ -14,8 +14,8 @@ public class Hw_2 {
 
         for (int value : numbers) {
             total += value;
-
         }
+
         average = total/numbers.length;
         return average;
     }

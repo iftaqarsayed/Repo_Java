@@ -3,7 +3,7 @@ package Class_7_HW;
 public class HW_2 {
     public static void main(String[] args) {
      char carMode = 'D';
-     String driveType = "SNOW";
+     String driveType = "SporT";
 
      switch (carMode) {
          case 'P':

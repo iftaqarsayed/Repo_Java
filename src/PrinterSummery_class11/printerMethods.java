@@ -1,17 +1,17 @@
 package PrinterSummery_class11;
 
 public class printerMethods {
-    static int tonerLevel;
-    static int pagesInTray;
-    int maxPages = 100;
-    int maxToner = 100;
+    private static int tonerLevel;
+    private static int pagesInTray;
+    private int maxPages = 100;
+    private int maxToner = 100;
     public int showToner(){
      return tonerLevel;
     }
     public int showPages() {
      return pagesInTray;
     }
-    public void addToner(int toner) {
+    public int addToner(int toner) {
         if (toner>0 && tonerLevel<=maxToner) {
             if ((tonerLevel + toner) <= maxToner) {
                 tonerLevel += toner;
@@ -21,6 +21,7 @@ public class printerMethods {
             } else {
             System.out.println("invalid toner to add");
         }
+   return tonerLevel;
     }
 
     public void addPages(int pages) {
@@ -36,6 +37,7 @@ public class printerMethods {
     }
 
     public void printPages(int print, String style) {
+
         if (style=="single" && tonerLevel>0 && pagesInTray>0) {
             pagesInTray -= print;
             tonerLevel -= print;
