@@ -1,6 +1,6 @@
 package Class7New_HW;
 
-public class HW_2New {
+public class carMode {
     public static void main(String[] args) {
         char carMode = 'D';
         String driveType = "SNOW";

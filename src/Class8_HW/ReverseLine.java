@@ -2,7 +2,7 @@ package Class8_HW;
 
 import java.util.Arrays;
 
-public class HW_3 {
+public class ReverseLine {
     public static void main(String[] args) {
         String message = "happy holidays";
         String reverseMessage = "";

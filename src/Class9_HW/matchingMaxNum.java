@@ -1,6 +1,6 @@
 package Class9_HW;
 
-public class Hw_4 {
+public class matchingMaxNum {
 
     public static void main(String[] args) {
         int [] allNumbers = {80, 115, 120, 100, 180};

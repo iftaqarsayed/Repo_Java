@@ -1,6 +1,6 @@
 package Class9_HW;
 
-public class Hw_3 {
+public class maximumNumber {
     public static void main(String[] args) {
         int [] allNumbers = {5, 10, 15, 100, 140, 18};
         int result = maximumOf(allNumbers);

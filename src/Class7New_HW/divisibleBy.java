@@ -1,6 +1,6 @@
 package Class7New_HW;
 
-public class HW_3New {
+public class divisibleBy {
     public static void main(String[] args) {
 
         int num = 15;

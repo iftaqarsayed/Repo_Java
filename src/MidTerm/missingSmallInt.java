@@ -2,25 +2,29 @@ package MidTerm;
 
 public class missingSmallInt {
     public static void main(String[] args) {
-      int[] arrayAll = {0, 5, -1, 2, 5, 3, 10, 8, 2};
+      int[] arrayAll = {0, 6, -1, 1, 4, 5, 3, 10, 8, 2};
 
-        System.out.println(smallInt(arrayAll));
+        int missing = smallInt(arrayAll);
+        System.out.println(missing);
 
     }
 
     public static int smallInt(int[] arrays) {
-    int smallest = 0;
 
+    int smallest=0;
+        while (true) {
+            boolean foundNum = false;
+            smallest++;
         for (int i = 0; i < arrays.length; i++) {
-            if (arrays[i] > 0) {
-                for (int j = 1; j < 100; j++) {
-                    if (j!=arrays[i]) {
-                        smallest = j;
-                    } break;
-                }
-
+            if (arrays[i] == smallest) {
+                foundNum = true;
+                break;
             }
         }
+       if (!foundNum) {
+           break;
+     }
+       }
 
 return  smallest;
     }

@@ -1,6 +1,6 @@
 package Class8_HW;
 
-public class HW_2 {
+public class LineModification {
     public static void main(String[] args) {
         String line = "once upOn a tiMe in the UNIVERSE";
         System.out.println("Line (Before modification) : " + line);

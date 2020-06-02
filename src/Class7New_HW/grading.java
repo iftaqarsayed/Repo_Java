@@ -1,6 +1,6 @@
 package Class7New_HW;
 
-public class HW_1New {
+public class grading {
     public static void main(String[] args) {
         double studentScore = 175;
         double maxScore = 200;

@@ -1,6 +1,6 @@
 package Class8_HW;
 
-public class HW_1 {
+public class Abbreviation {
     public static void main(String[] args) {
 
 

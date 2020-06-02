@@ -1,6 +1,6 @@
 package Class8_HW;
 
-public class HW_4 {
+public class palindrome {
     public static void main(String[] args) {
         String word = "lEvel";  //ecar
         boolean result=false;

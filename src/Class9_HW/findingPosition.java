@@ -1,6 +1,6 @@
 package Class9_HW;
 
-public class hw_1 {
+public class findingPosition {
 
     public static void main(String[] args) {
         String[] names = {"john", "michael", "dora", "philip", "ilena", "palena", "fahry"};
