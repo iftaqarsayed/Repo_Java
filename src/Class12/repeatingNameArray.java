@@ -5,7 +5,7 @@ import java.util.List;
 
 public class repeatingNameArray {
     public static void main(String[] args) {
-        String[] words = {"happy", "peace", "joy", "grow", "laugh", "happy", "laugh", "joy"};
+        String[] words = {"happy", "peace", "joy", "grow", "laugh", "joy", "happy", "laugh", "joy"};
         repeatName(words);
 
     }

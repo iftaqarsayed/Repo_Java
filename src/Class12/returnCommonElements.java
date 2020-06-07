@@ -6,7 +6,7 @@ import java.util.List;
 public class returnCommonElements {
     public static void main(String[] args) {
         int[] arr1 = {11, 32, 43, 54, 65, 89, 100, 45, 23};
-        int[] arr2 = {76, 11, 89, 43, 87, 23, 32};
+        int[] arr2 = {76, 11, 89, 43, 87, 23, 32, 32};
 
         searchCommon(arr1,arr2);
     }
@@ -18,6 +18,7 @@ public class returnCommonElements {
                 if (first[i]==toSearch[j]) {
                     commonNum = first[i];
                     result.add(commonNum);
+                    break;
                 }
             }
         }
