@@ -8,9 +8,10 @@ public class returnCommonElements {
         int[] arr1 = {11, 32, 43, 54, 65, 89, 100, 45, 23};
         int[] arr2 = {76, 11, 89, 43, 87, 23, 32, 32};
 
-        searchCommon(arr1,arr2);
+
+        System.out.println(searchCommon(arr1,arr2));
     }
-    public static void searchCommon(int[] first, int[] toSearch) {
+    public static List<Integer> searchCommon(int[] first, int[] toSearch) {
         List<Integer> result = new ArrayList<>();
         int commonNum;
         for (int i=0; i<first.length; i++) {
@@ -22,7 +23,7 @@ public class returnCommonElements {
                 }
             }
         }
-        System.out.println(result);
+        return result;
     }
 
 }

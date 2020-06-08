@@ -6,10 +6,10 @@ import java.util.List;
 public class repeatingNameArray {
     public static void main(String[] args) {
         String[] words = {"happy", "peace", "joy", "grow", "laugh", "joy", "happy", "laugh", "joy"};
-        repeatName(words);
+        System.out.println(repeatName(words));
 
     }
-    public static void repeatName (String [] allWords) {
+    public static List<String> repeatName (String [] allWords) {
         List<String> names = new ArrayList<>();
         String repeatName = "";
         for (int i=0 ; i < allWords.length-1 ; i++) {
@@ -21,7 +21,7 @@ public class repeatingNameArray {
                 }
             }
         }
-        System.out.println(names);
+       return names;
     }
 
 }
